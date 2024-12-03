@@ -1,3 +1,5 @@
+// Этот код представляет собой простой компонент DestroySelf, 
+// который автоматически уничтожает объект, к которому он прикреплен, через заданное количество времени.
 namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 {
     /// <summary>

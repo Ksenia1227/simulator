@@ -1,3 +1,5 @@
+// Этот класс помогает управлять состояниями ввода контроллера, 
+// переключаясь между различными режимами взаимодействия (телепортация, движение, вращение и взаимодействие с UI).
 using System.Collections.Generic;
 using Unity.XR.CoreUtils.Bindings;
 using UnityEngine.Events;

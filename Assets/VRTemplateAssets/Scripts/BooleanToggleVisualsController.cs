@@ -1,3 +1,4 @@
+// Этот скрипт контролирует визуальные состояния переключателя (toggle) в пользовательском интерфейсе Unity
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;

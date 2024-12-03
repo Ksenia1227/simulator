@@ -1,3 +1,4 @@
+// управление шлемом и котроллерами
 using Unity.XR.CoreUtils;
 using UnityEngine.Assertions;
 using UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement;

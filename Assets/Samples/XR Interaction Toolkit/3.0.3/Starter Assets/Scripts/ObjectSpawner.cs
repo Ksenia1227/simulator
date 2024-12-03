@@ -1,3 +1,6 @@
+// Выбирать, какие префабы будут заспаунированы.
+// Определять, где объекты будут спауниться.
+// Управлять поведением объектов при спауне, например, их ориентацией.
 using System;
 using System.Collections.Generic;
 using UnityEngine.XR.Interaction.Toolkit.Utilities;

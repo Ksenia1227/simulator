@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Этот компонент предоставляет простой, но мощный способ анимировать объекты в VR,
+//  которые должны реагировать на нажатия или другие виды воздействия. 
+using System;
 using Unity.Mathematics;
 using Unity.XR.CoreUtils.Bindings;
 using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State;

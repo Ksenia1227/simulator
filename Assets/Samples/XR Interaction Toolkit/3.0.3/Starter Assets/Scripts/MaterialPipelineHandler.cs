@@ -1,3 +1,5 @@
+// настроено управление шейдерами в зависимости от того, 
+// какой пайплайн используется, чтобы материалы и текстуры выглядели корректно в разных условиях
 using UnityEngine.Rendering;
 using System.Collections.Generic;
 #if UNITY_EDITOR

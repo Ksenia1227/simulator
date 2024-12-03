@@ -1,4 +1,5 @@
-﻿using UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing;
+﻿// Этот компонент помогает визуально указать пользователю точку телепортации, создавая ориентированный индикатор во время подъема.
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing;
 using UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation;
 using UnityEngine.XR.Interaction.Toolkit.Utilities;
 

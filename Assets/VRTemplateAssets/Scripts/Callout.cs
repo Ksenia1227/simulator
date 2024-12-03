@@ -1,3 +1,4 @@
+// смотришь на объект появляются подсказки и потом исчезают через какое то время
 using System.Collections;
 using UnityEngine;
 
