@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 135169722}
   - component: {fileID: 135169721}
   - component: {fileID: 135169724}
+  - component: {fileID: 135169725}
   m_Layer: 5
   m_Name: learn
   m_TagString: Untagged
@@ -413,6 +414,28 @@ MonoBehaviour:
   m_MinDistance: 0.15
   m_ClampToMaxDistance: 1
   m_MaxDistance: 0
+--- !u!114 &135169725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135169719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactable: {fileID: 0}
+  m_PokeCollider: {fileID: 0}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
 --- !u!1 &184453250
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +776,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.2626286, y: 2.43, z: 0.14646487}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2017305936}
@@ -1498,6 +1521,7 @@ GameObject:
   - component: {fileID: 667234507}
   - component: {fileID: 667234506}
   - component: {fileID: 667234505}
+  - component: {fileID: 667234508}
   m_Layer: 5
   m_Name: controls
   m_TagString: Untagged
@@ -1631,6 +1655,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667234503}
   m_CullTransparentMesh: 1
+--- !u!114 &667234508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667234503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactable: {fileID: 0}
+  m_PokeCollider: {fileID: 0}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
 --- !u!1 &757478584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +1758,7 @@ GameObject:
   - component: {fileID: 877615691}
   - component: {fileID: 877615690}
   - component: {fileID: 877615693}
+  - component: {fileID: 877615694}
   m_Layer: 5
   m_Name: practice
   m_TagString: Untagged
@@ -1905,6 +1952,24 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
+--- !u!114 &877615694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877615688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b3638c2f5db5b479ff24c2859713d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PokeFollowTransform: {fileID: 0}
+  m_SmoothingSpeed: 16
+  m_ReturnToInitialPosition: 1
+  m_ApplyIfChildIsTarget: 1
+  m_ClampToMaxDistance: 0
+  m_MaxDistance: 0
 --- !u!1 &887541692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,6 +2865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936231387}
   - component: {fileID: 1936231388}
+  - component: {fileID: 1936231389}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -2880,6 +2946,28 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1936231389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936231386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactable: {fileID: 0}
+  m_PokeCollider: {fileID: 0}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
 --- !u!1 &1962847250
 GameObject:
   m_ObjectHideFlags: 0
