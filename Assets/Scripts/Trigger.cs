@@ -4,6 +4,8 @@ using UnityEngine.Events;
 
 public class Trigger : MonoBehaviour
 
+{ 
+
     [SerializeField] string tagFilter;
 
     [SerializeField] UnityEvent onTriggerEnter;
